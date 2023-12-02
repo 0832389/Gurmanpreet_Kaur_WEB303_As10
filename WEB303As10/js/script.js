@@ -10,8 +10,6 @@ $(document).ready(function () {
         console.error("The 'countries' array is not defined or empty.");
     }
 
-    
-
     // Function to check if all form requirements are met
     function checkFormRequirements() {
         const username = $('#username').val();
@@ -39,3 +37,5 @@ $(document).ready(function () {
         $('#welcomeMessage').text(`Welcome ${username}! The country code you selected is ${selectedCountry}`).show();
     });
 });
+
+
